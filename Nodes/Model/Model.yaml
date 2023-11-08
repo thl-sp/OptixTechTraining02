@@ -1,0 +1,468 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: MyMotor
+  Id: g=325cc93365727e040969fa3a0ba742bf
+  Supertype: BaseObjectType
+  Children:
+  - Name: Speed
+    Type: AnalogItemType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: EURange
+      Value: 
+       {
+        "TypeId": {
+         "Id": 884
+        },
+        "Body": {
+         "low": 0.0,
+         "high": 0.0
+        }
+       }
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 2000.0
+  - Name: Power
+    Type: AnalogItemType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: EURange
+      Value: 
+       {
+        "TypeId": {
+         "Id": 884
+        },
+        "Body": {
+         "low": 0.0,
+         "high": 0.0
+        }
+       }
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 20.0
+  - Name: Start
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Stop
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Run
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: EStop
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: MyMotor1
+  Id: g=550db8bbce23ea6a588c56f7ea92fe1c
+  Type: MyMotor
+  Children:
+  - Name: Speed
+    Type: AnalogItemType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: EURange
+      Value: 
+       {
+        "TypeId": {
+         "Id": 884
+        },
+        "Body": {
+         "low": 0.0,
+         "high": 0.0
+        }
+       }
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 1000.0
+  - Name: Power
+    Type: AnalogItemType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: EURange
+      Value: 
+       {
+        "TypeId": {
+         "Id": 884
+        },
+        "Body": {
+         "low": 0.0,
+         "high": 0.0
+        }
+       }
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 15.0
+  - Name: Start
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Stop
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Run
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: EStop
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: MyMotor2
+  Id: g=f6aca78b9a00133c499dd48b234cc02a
+  Type: MyMotor
+  Children:
+  - Name: Speed
+    Type: AnalogItemType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: EURange
+      Value: 
+       {
+        "TypeId": {
+         "Id": 884
+        },
+        "Body": {
+         "low": 0.0,
+         "high": 0.0
+        }
+       }
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 2000.0
+  - Name: Power
+    Type: AnalogItemType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: EURange
+      Value: 
+       {
+        "TypeId": {
+         "Id": 884
+        },
+        "Body": {
+         "low": 0.0,
+         "high": 0.0
+        }
+       }
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 20.0
+  - Name: Start
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Stop
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Run
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: EStop
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: MyMotor3
+  Type: MyMotor
+  Children:
+  - Name: Speed
+    Type: AnalogItemType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: EURange
+      Value: 
+       {
+        "TypeId": {
+         "Id": 884
+        },
+        "Body": {
+         "low": 0.0,
+         "high": 0.0
+        }
+       }
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 3000.0
+  - Name: Power
+    Type: AnalogItemType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: EURange
+      Value: 
+       {
+        "TypeId": {
+         "Id": 884
+        },
+        "Body": {
+         "low": 0.0,
+         "high": 0.0
+        }
+       }
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 50.0
+  - Name: Start
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Stop
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Run
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: EStop
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: MyMotor4
+  Type: MyMotor
+  Children:
+  - Name: Speed
+    Type: AnalogItemType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: EURange
+      Value: 
+       {
+        "TypeId": {
+         "Id": 884
+        },
+        "Body": {
+         "low": 0.0,
+         "high": 0.0
+        }
+       }
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 2000.0
+  - Name: Power
+    Type: AnalogItemType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: EURange
+      Value: 
+       {
+        "TypeId": {
+         "Id": 884
+        },
+        "Body": {
+         "low": 0.0,
+         "high": 0.0
+        }
+       }
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 20.0
+  - Name: Start
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Stop
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Run
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: EStop
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: MyMotor5
+  Type: MyMotor
+  Children:
+  - Name: Speed
+    Type: AnalogItemType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: EURange
+      Value: 
+       {
+        "TypeId": {
+         "Id": 884
+        },
+        "Body": {
+         "low": 0.0,
+         "high": 0.0
+        }
+       }
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 2000.0
+  - Name: Power
+    Type: AnalogItemType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: EURange
+      Value: 
+       {
+        "TypeId": {
+         "Id": 884
+        },
+        "Body": {
+         "low": 0.0,
+         "high": 0.0
+        }
+       }
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 20.0
+  - Name: Start
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Stop
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Run
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: EStop
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
